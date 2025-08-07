@@ -1,0 +1,22 @@
+#!/bin/bash/
+
+JSON_FILE = "data.json"
+
+if [ ! -f "$JSON_FILE" ] || [! -r "JSON_FILE"]; then
+	echo "Error: JSON file not found or not readable: $JSON_FILE"
+	exit 1
+fi
+
+
+name=$(jq -r '.name' "$JSON_FILE" | sed 's/.*/\U&/')
+type=$(jq -r '.types[0].type.name' "$JSON_FILE" | sed 's/.*/\U&/')
+
+formatted_weight=$(jq -r '.weight' "$JSON_FILE" | awk '{printf "%.2f", $1 / 10}') "$formatted_weight" "kg"
+formatted_height=$(jq -r '.height' "$JSON_FILE" | awk '{printf "%.2f", $1 / 10}') "$formatted_height" "m"
+
+if [ -z "$name" ] || [ -z "$type" ] || [ -z "$formatted_height" ] || [ -z "$formatted_weight" ]; then
+	echo "Error: Failed to extract name or type from JSON file"
+	exit 1
+fi
+
+echo "$name is of type $type, weighs $formatted_weight and is $formatted_height tall."
