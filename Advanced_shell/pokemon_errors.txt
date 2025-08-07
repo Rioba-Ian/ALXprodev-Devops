@@ -1,0 +1,8 @@
+2025-08-07 14:02:27 - Invalid Pokemon name: Bulbasaur,
+2025-08-07 14:02:27 - Skipping invalid Pokemon name: Bulbasaur,
+2025-08-07 14:02:27 - Invalid Pokemon name: Ivysaur,
+2025-08-07 14:02:27 - Skipping invalid Pokemon name: Ivysaur,
+2025-08-07 14:02:27 - Invalid Pokemon name: Venusaur,
+2025-08-07 14:02:27 - Skipping invalid Pokemon name: Venusaur,
+2025-08-07 14:02:27 - Invalid Pokemon name: Charmander,
+2025-08-07 14:02:27 - Skipping invalid Pokemon name: Charmander,
