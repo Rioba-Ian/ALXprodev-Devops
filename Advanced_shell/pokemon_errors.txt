@@ -1,8 +1,17 @@
-2025-08-07 14:02:27 - Invalid Pokemon name: Bulbasaur,
-2025-08-07 14:02:27 - Skipping invalid Pokemon name: Bulbasaur,
-2025-08-07 14:02:27 - Invalid Pokemon name: Ivysaur,
-2025-08-07 14:02:27 - Skipping invalid Pokemon name: Ivysaur,
-2025-08-07 14:02:27 - Invalid Pokemon name: Venusaur,
-2025-08-07 14:02:27 - Skipping invalid Pokemon name: Venusaur,
-2025-08-07 14:02:27 - Invalid Pokemon name: Charmander,
-2025-08-07 14:02:27 - Skipping invalid Pokemon name: Charmander,
+2025-08-07 14:12:44 - Invalid JSON response for bulbasaur
+2025-08-07 14:12:51 - Invalid JSON response for bulbasaur
+2025-08-07 14:13:02 - Invalid JSON response for bulbasaur
+2025-08-07 14:13:02 - Failed to fetch data for bulbasaur after 3 attempts
+2025-08-07 14:13:06 - Invalid JSON response for ivysaur
+2025-08-07 14:13:15 - Invalid JSON response for ivysaur
+2025-08-07 14:13:23 - Invalid JSON response for ivysaur
+2025-08-07 14:13:23 - Failed to fetch data for ivysaur after 3 attempts
+2025-08-07 14:13:27 - Invalid JSON response for venusaur
+2025-08-07 14:14:12 - Invalid JSON response for venusaur
+2025-08-07 14:14:21 - Invalid JSON response for venusaur
+2025-08-07 14:14:21 - Failed to fetch data for venusaur after 3 attempts
+2025-08-07 14:14:25 - Invalid JSON response for charmander
+2025-08-07 14:14:33 - Invalid JSON response for charmander
+2025-08-07 14:14:42 - Invalid JSON response for charmander
+2025-08-07 14:14:42 - Failed to fetch data for charmander after 3 attempts
+2025-08-07 14:14:45 - Invalid JSON response for charmeleon
